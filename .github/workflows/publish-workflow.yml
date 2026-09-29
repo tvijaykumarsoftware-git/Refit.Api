@@ -6,9 +6,9 @@ on:
     branches: [main]
 
 env:
-  AZURE_CONTAINER_REGISTRY: refitapi
-  CONTAINER_APP_NAME: refitapi
-  RESOURCE_GROUP: youtube
+  AZURE_CONTAINER_REGISTRY: refitrpiregstry
+  CONTAINER_APP_NAME: refitapitest
+  RESOURCE_GROUP: Refit-Api-rg
 
 jobs:
   build-and-deploy:
